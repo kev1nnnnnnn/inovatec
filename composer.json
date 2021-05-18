@@ -1,5 +1,5 @@
 {
-    "name": "hcodebr/inovatec",
+    "name": "kev1nnnnnnn/inovatec",
     "authors": [
         {
             "name": "Supreme Team - John Kevin",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "INOVATEC\\": "vendor\\project\\php-classes\\src"
+            "Inova\\": "vendor\\project\\php-classes\\src"
         }
     }
 }

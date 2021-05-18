@@ -9,12 +9,12 @@ class ComposerStaticInit0424a400aa08ea9ed4bcb0754ce895e8
     public static $prefixLengthsPsr4 = array (
         'I' => 
         array (
-            'INOVATEC\\' => 9,
+            'Inova\\' => 6,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'INOVATEC\\' => 
+        'Inova\\' => 
         array (
             0 => __DIR__ . '/..' . '/project/php-classes/src',
         ),
