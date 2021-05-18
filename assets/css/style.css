@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+
+#img1, #img2 {
+    max-width: 400px;
+    height: 300px;
+    border-radius: 8px;
+}
+#img3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+}
+.content_img .row {
+    margin: auto;
+}
+.content_img p {
+    margin-top: 3em;
+}
