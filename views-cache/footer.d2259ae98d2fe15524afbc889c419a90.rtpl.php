@@ -1,4 +1,4 @@
-        <!-- Footer -->
+<?php if(!class_exists('Rain\Tpl')){exit;}?>        <!-- Footer -->
         <footer class="text-center text-white mt-4" style="background-color: #0a4275;">
             <!-- Grid container -->
             <div class="container p-4 pb-0">

@@ -1,13 +1,13 @@
 <?php 
 
-namespace Hcode\DB;
+namespace Inova\DB;
 
 class Sql {
 
 	const HOSTNAME = "127.0.0.1";
 	const USERNAME = "root";
 	const PASSWORD = "";
-	const DBNAME = "db_agenda";
+	const DBNAME = "inovatec";
 
 	private $conn;
 

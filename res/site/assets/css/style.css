@@ -1,13 +1,32 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
-h3 {
-    margin-top: 2.5em;
-    margin-bottom: 1em;
+ h2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: left;
+    color: #002244;
+}
+p {
+    color: black;
 }
 
+.principal {
+    margin-bottom: 5em;
+}
+.principal .content h4 {
+    margin: 1em;
+    color: #002244;
+}
+.principal .content p {
+    margin: 1em;
+    color: #002244;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
 
 #img1, #img2 {
     max-width: 400px;
@@ -23,5 +42,54 @@ h3 {
     margin: auto;
 }
 .content_img p {
-    margin-top: 3em;
+    margin-top: 1em;
 }
+
+
+.jumbotron {
+    background-color: #002244;
+}
+.jumbotron h1 {
+    color: white;
+}
+.jumbotron p {
+    color: white;
+}
+
+header div nav a {
+    color: #002244;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #ccc;
+}
+header div nav a:hover {
+    color: #002244;
+}
+
+.login form {
+    padding-left: 25em;
+}
+
+.form_login {
+    background-color:#002244;
+    color: #FFFF;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 3em;
+    font-family: sans-serif;
+}
+.form_login button {
+    margin-top: 2em;
+}
+
+.form_cadastro {
+    background-color:#002244;
+    color: #FFFF;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 3em;
+    font-family: sans-serif;
+}
+
+
+

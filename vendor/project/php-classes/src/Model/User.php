@@ -1,9 +1,9 @@
 <?php
 
-namespace Hcode\Model;
+namespace Inova\Model;
 
-use \Hcode\DB\Sql;
-use \Hcode\Model;
+use \Inova\DB\Sql;
+use \Inova\Model;
 
 	class User extends Model {
 		
@@ -42,7 +42,7 @@ use \Hcode\Model;
 			}		
 		}
 
-		public static function verifyLogin($inadmin = true)
+		public static function verifyLogin()
 		{
 			if (
 				!isset($_SESSION[User::SESSION])
@@ -50,7 +50,6 @@ use \Hcode\Model;
 				!$_SESSION[User::SESSION]
 				||
 				!(int)$_SESSION[User::SESSION]["iduser"] > 0	
-				||(bool)$_SESSION[User::SESSION]["inadmin"]	!== $inadmin
 			) {
 				header("Location: /login");
 				exit;
