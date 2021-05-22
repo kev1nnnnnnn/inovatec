@@ -1,9 +1,11 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?><section class="jumbotron text-center">
+<?php if(!class_exists('Rain\Tpl')){exit;}?>
+
+   <section class="jumbotron text-center">
     <div class="container">
       <h1 class="jumbotron-heading">Como funciona?</h1>
       <p class="lead ">Trabalhamos para que seus dados esteja sempre seguros, além de dicas importantes para quem realiza compras na internet, e faz a utilização do cartão diariamente.</p>
       <p>
-        <a href="/blog" class="btn btn-primary my-2">Entenda mais</a>
+        <a href="/dicas" class="btn btn-primary my-2">Entenda mais</a>
         <a href="/login" class="btn btn-secondary my-2">Sign up!</a>
       </p>
     </div>
@@ -42,3 +44,6 @@
             </div>
         </div>
     </section>
+
+
+

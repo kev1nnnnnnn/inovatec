@@ -24,6 +24,7 @@ class Model {
 		}
 	}
 
+	//função  onde irá passar os dados do banco chave e valor
 	public function setData($data = array()) {
 
 		foreach ($data as $key => $value) {

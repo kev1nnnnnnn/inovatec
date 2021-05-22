@@ -5,6 +5,7 @@ require_once("vendor/autoload.php");
 use \Slim\Slim;
 use \Inova\Page;
 use \Inova\Model\User;
+use \Inova\Model\Questionario;
 
 $app = new Slim();
 
@@ -18,32 +19,65 @@ $app->get('/', function() {
 
 });
 
-$app->get('/suporte', function() {
+$app->get("/questionario", function(){
 
-	$page = new Page();
+	$page = new Page([
+		"footer"=>false
+	]);
 
-	$page->setTpl("suporte");
+	$page->setTpl("quest");
+
 });
 
 $app->get('/cadastro', function() {
 
-	$page = new Page();
+	$page = new Page([
+		"footer"=>false
+	]);
 
 	$page->setTpl("cadastro");
 });
 
 $app->get('/indice', function() {
 
+	$quest = Questionario::listQuest();
+
 	$page = new Page();
 
-	$page->setTpl("indice");
+	$page->setTpl("indice", array(
+
+		"quest"=>$quest
+	));
+});
+
+$app->get('/dicas', function(){
+
+	$page = new Page();
+
+	$page->setTpl("/dicas");
+
+});
+
+$app->post('/indice', function() {
+
+	$quest = new Questionario();
+
+	$quest->setData($_POST);
+
+	$quest->save();
+
+	header("Location: /indice");
+	exit;
+
 });
 
 $app->get('/login', function() {
 
-	User::verifyLogin();
+	//User::verifyLogin();
 
-	$page = new Page();
+	$page = new Page([
+		"footer"=>false
+	]);
 
 	$page->setTpl("login");
 });

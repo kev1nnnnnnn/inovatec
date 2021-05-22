@@ -5,7 +5,7 @@
             <!-- Section: CTA -->
             <section class="">
                 <p class="d-flex justify-content-center align-items-center">
-                <span class="me-3">Registre-se gratuitamente</span>
+                <span class="me-3 text-white">Registre-se gratuitamente</span>
                 <button type="button" class=" ml-3 btn btn-outline-light btn-rounded">
                     Sign up!
                 </button>

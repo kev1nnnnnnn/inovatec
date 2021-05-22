@@ -69,9 +69,14 @@ header div nav a:hover {
 .login form {
     padding-left: 25em;
 }
+.container_login {
+    max-width: 100%;
+    padding: 100px;
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+}
 
 .form_login {
-    background-color:#002244;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
     color: #FFFF;
     padding: 40px;
     border-radius: 10px;
@@ -83,13 +88,98 @@ header div nav a:hover {
 }
 
 .form_cadastro {
-    background-color:#002244;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
     color: #FFFF;
     padding: 40px;
     border-radius: 10px;
-    margin-top: 3em;
     font-family: sans-serif;
 }
+.container_cadastro {
+    max-width: 100%;
+    padding: 100px;
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+}
+.cotainer .questionario {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
+}
+.form_questionario {
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+
+    
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+}
+.form_questionario textarea {
+    resize: none;
+}
+.form_questionario label {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+.questionario_page {
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+    
+
+}
+
+/* =============== DICAS ================ */
+
+.content_dicas {
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+    margin-bottom: -4em;
+}
+.content_topo h1{
+    font-size: 56px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 1em;
+}
+.content_topo h4 {
+   margin-bottom: 1em;
+   color: white;
+}
+.content_meio p {
+    letter-spacing: 0.7px;
+    line-height: 1.5em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content_list {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: white;
+}
+.content_list ul li {
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+    padding: 10px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.btn-grad {
+   margin-top: 2em;
+   padding: 10px 25px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
 
 
 

@@ -1,5 +1,6 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?>
-<div class="container mb-4">
+
+<div class="container container_cadastro">
   <!--CADASTRO-->
   <div class="justify-content-center align-items-center row">
     <div class="col-md-7">
@@ -41,15 +42,13 @@
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
-                  Sign up
+                  Manter-me conectado
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary form-control">Entrar</button>
+            <button class="btn-grad btn-block btn-info">Sign up</button>
           </form>
       </div>
   </div>
-  </div>
 
  
-
